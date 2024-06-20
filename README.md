@@ -5,6 +5,7 @@ This research dives into the effects of COVID-19 on the stock market, exploring 
 Standard and Poor’s 500(SP500) dataset of four year (2019, 2020,2021, 2022) time period is used in the project . In this study, the methodology commenced with obtaining historical stock market data for various companies. The data was sourced from reliable financial databases, ensuring its accuracy and relevance to the research objective. The data included daily stock prices, company information, and other relevant financial metrics.The data cleaning process involved the removal of missing values, outliers, and any inconsistencies that could impact the analysis. Additionally, we filtered the data to include only the relevant time periods, specifically before, during, and after the COVID-19 crisis.
 
 ![Screenshot 2024-06-20 213156](https://github.com/eshaagrawal1/Stock-Market-Network-Analysis-before-during-after-COVID/assets/90109712/48dd2c47-db9d-4a51-ad77-bd440cbbbeea)
+                     
                       The flowchart representing the data downloading, cleaning and filtering process.
                       
 - Correlation Analysis: 
@@ -38,15 +39,19 @@ This involved leveraging historical data to train models, enabling the projectio
 - Network construction :-
 
 ![Screenshot 2024-06-20 213751](https://github.com/eshaagrawal1/Stock-Market-Network-Analysis-before-during-after-COVID/assets/90109712/1c684f68-45e9-45c7-8439-dbb24b7923b5)
+                       
                           Showing MST of the year 2019 of all the companies having different sectors
 
 ![Screenshot 2024-06-20 213801](https://github.com/eshaagrawal1/Stock-Market-Network-Analysis-before-during-after-COVID/assets/90109712/2ab065dc-45b5-4aaf-8622-7d8e0d368d5f)
+                         
                           Showing MST of the year 2020 of all the companies having different sectors
 
 ![Screenshot 2024-06-20 214103](https://github.com/eshaagrawal1/Stock-Market-Network-Analysis-before-during-after-COVID/assets/90109712/c71e90ff-f9a5-4c61-828e-cb513ccfb217)
+                        
                           Showing MST of the year 2021 of all the companies having different sectors
 
 ![Screenshot 2024-06-20 213823](https://github.com/eshaagrawal1/Stock-Market-Network-Analysis-before-during-after-COVID/assets/90109712/253d46b0-5d59-4495-8b17-56dadf4cfd48)
+
                           Showing MST of the year 20122 of all the companies having different sectors
 
 - Centrality Measures
@@ -55,17 +60,20 @@ Each centrality measure in a network analysis provides unique insights into the 
 Nodes(Stocks) with high degree centrality are having a higher number of connections or interactions. In the below figure 6 , high-degree nodes representing the stocks that are frequently traded or have many connections with other sectors, indicating their prominence in trading activity across the four years.
 
 ![Screenshot 2024-06-20 214422](https://github.com/eshaagrawal1/Stock-Market-Network-Analysis-before-during-after-COVID/assets/90109712/93b5fec4-d211-447a-a0fa-30f3abfa2d0b)
+                       
                         Showing the stocks of particular sector that were highly connected with other stocks across different years.
 2 Closeness Centrality: 
 Nodes with high closeness centrality are showing that they have shorter average path lengths to other nodes in the network. In this network, nodes with high closeness centrality may represent stocks that are well-connected and can quickly influence or be influenced by other nodes.
 
 ![Screenshot 2024-06-20 214436](https://github.com/eshaagrawal1/Stock-Market-Network-Analysis-before-during-after-COVID/assets/90109712/713875a7-defd-4cb9-a26d-fb0e5dc5fded)
+                      
                       Showing the stocks of particular stocks are very close with others.
 
 3 EigenVector Centrality: 
 Nodes that are high eigenvector centrality are anticipated to have influence or importance within the network. They represent influential sectors or stocks that are connected to other influential nodes.
 
 ![Screenshot 2024-06-20 214653](https://github.com/eshaagrawal1/Stock-Market-Network-Analysis-before-during-after-COVID/assets/90109712/c3073e95-9555-4447-8040-3a97a08a75b2)
+                     
                       High peaks showing the high influential sector at particular year.
 
 ![Screenshot 2024-06-20 214805](https://github.com/eshaagrawal1/Stock-Market-Network-Analysis-before-during-after-COVID/assets/90109712/025e6720-25a2-4375-8993-3b34bf357432)
@@ -76,13 +84,17 @@ Nodes that are high eigenvector centrality are anticipated to have influence or 
 ![Screenshot 2024-06-20 215024](https://github.com/eshaagrawal1/Stock-Market-Network-Analysis-before-during-after-COVID/assets/90109712/f16daa9c-adf7-49f8-b326-69ddd0ecc265)
 
 ![Screenshot 2024-06-20 214837](https://github.com/eshaagrawal1/Stock-Market-Network-Analysis-before-during-after-COVID/assets/90109712/a227c9a6-2de5-43c7-9cf1-71dc711fdb15)
+                        
                           Showing community detection in 2022
 
 ![Screenshot 2024-06-20 215008](https://github.com/eshaagrawal1/Stock-Market-Network-Analysis-before-during-after-COVID/assets/90109712/1e3075a2-d527-4fe8-b9bf-debc0c389a84)
+                            
                               Showing Community having different sectors correlated with it.
 
 - Maximum EigenValue and Mean Correlation:
+  
 ![Screenshot 2024-06-20 215133](https://github.com/eshaagrawal1/Stock-Market-Network-Analysis-before-during-after-COVID/assets/90109712/caf80c08-a20f-4f31-9b33-e848cbe8ada0)
+
 ![Screenshot 2024-06-20 215230](https://github.com/eshaagrawal1/Stock-Market-Network-Analysis-before-during-after-COVID/assets/90109712/39bdc658-394a-4adb-9ecf-f2f1c00494ec)
 
 The results show us that the healthcare, and has boomed significantly
